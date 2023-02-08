@@ -1,4 +1,3 @@
-let colorlist = ['gold', 'yellow', 'turquoise', 'red']
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -6,7 +5,6 @@ function setup() {
 }
 
 function draw() {
-  noStroke()
-  fill(random(colorlist));
-  ellipse(mouseX, mouseY, 100, 25);
+  fill('black');
+  rect(350, 600, 50, 15)
 }
